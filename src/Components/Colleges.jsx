@@ -21,7 +21,7 @@ const Colleges = () => {
                     <h2 className="card-title">{college.college_name}</h2>
                     <p><span className="font-bold">Admission Data:</span> {college.admission_dates}</p>
                     <div className="card-actions justify-end">
-                        <Link to={`/college-details`}><button className="btn btn-primary">Details</button></Link>
+                        <Link to={`/college-details/${college._id}`}><button className="btn btn-primary">Details</button></Link>
                     </div>
                 </div>
             </div>
