@@ -1,0 +1,65 @@
+[
+    {
+        "college_name": "Example University",
+        "college_image": "https://img.freepik.com/premium-photo/students-work-green-lawn-before-library_8353-2154.jpg?w=740",
+        "admission_dates": "August 2023",
+        "events": [
+            {
+                "event_name": "Orientation Day",
+                "event_date": "August 15, 2023"
+            },
+            {
+                "event_name": "Annual Sports Meet",
+                "event_date": "September 25, 2023"
+            }
+        ],
+        "research_history": "Established in 1948, Example University has a rich history of groundbreaking research.",
+        "sports": [
+            "Football",
+            "Basketball",
+            "Swimming"
+        ]
+    },
+    {
+        "college_name": "ABC College",
+        "college_image": "https://img.freepik.com/premium-photo/students-university-people-wearing-mantles-group-students_115086-788.jpg?w=900",
+        "admission_dates": "July 2023",
+        "events": [
+            {
+                "event_name": "Freshers' Party",
+                "event_date": "July 31, 2023"
+            },
+            {
+                "event_name": "Tech Fest",
+                "event_date": "October 10, 2023"
+            }
+        ],
+        "research_history": "ABC College is known for its innovative research in the fields of science and technology.",
+        "sports": [
+            "Cricket",
+            "Badminton",
+            "Table Tennis"
+        ]
+    },
+    {
+        "college_name": "XYZ Institute",
+        "college_image": "https://img.freepik.com/premium-photo/smiling-positive-university-student-boy-near-campus-with-books_245974-4728.jpg?w=900",
+        "admission_dates": "September 2023",
+        "events": [
+            {
+                "event_name": "Cultural Night",
+                "event_date": "September 8, 2023"
+            },
+            {
+                "event_name": "Literary Festival",
+                "event_date": "November 20, 2023"
+            }
+        ],
+        "research_history": "XYZ Institute has made significant contributions to social sciences and humanities research.",
+        "sports": [
+            "Volleyball",
+            "Chess",
+            "Athletics"
+        ]
+    }
+]
