@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "college_name": "Example University",
         "college_image": "https://img.freepik.com/premium-photo/students-work-green-lawn-before-library_8353-2154.jpg?w=740",
         "admission_dates": "August 2023",
@@ -18,9 +19,11 @@
             "Football",
             "Basketball",
             "Swimming"
-        ]
+        ],
+        "rating": 4.5
     },
     {
+        "id": 2,
         "college_name": "ABC College",
         "college_image": "https://img.freepik.com/premium-photo/students-university-people-wearing-mantles-group-students_115086-788.jpg?w=900",
         "admission_dates": "July 2023",
@@ -39,9 +42,11 @@
             "Cricket",
             "Badminton",
             "Table Tennis"
-        ]
+        ],
+        "rating": 4.2
     },
     {
+        "id": 3,
         "college_name": "XYZ Institute",
         "college_image": "https://img.freepik.com/premium-photo/smiling-positive-university-student-boy-near-campus-with-books_245974-4728.jpg?w=900",
         "admission_dates": "September 2023",
@@ -60,6 +65,76 @@
             "Volleyball",
             "Chess",
             "Athletics"
-        ]
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": 4,
+        "college_name": "MNO University",
+        "college_image": "https://img.freepik.com/free-photo/smiling-young-asian-woman-graduation-gown-holding-diploma_285396-4350.jpg?size=626&ext=jpg",
+        "admission_dates": "October 2023",
+        "events": [
+            {
+                "event_name": "Inauguration Ceremony",
+                "event_date": "October 12, 2023"
+            },
+            {
+                "event_name": "Annual Cultural Fest",
+                "event_date": "November 5, 2023"
+            }
+        ],
+        "research_history": "MNO University has a strong focus on interdisciplinary research and academic excellence.",
+        "sports": [
+            "Tennis",
+            "Golf",
+            "Hockey"
+        ],
+        "rating": 4.1
+    },
+    {
+        "id": 5,
+        "college_name": "PQR College",
+        "college_image": "https://img.freepik.com/free-photo/students-group-studying-library-with-laptop_53876-62662.jpg?size=626&ext=jpg",
+        "admission_dates": "December 2023",
+        "events": [
+            {
+                "event_name": "Freshers' Welcome",
+                "event_date": "December 1, 2023"
+            },
+            {
+                "event_name": "Science Expo",
+                "event_date": "January 15, 2024"
+            }
+        ],
+        "research_history": "PQR College is known for pioneering research in environmental sustainability and renewable energy.",
+        "sports": [
+            "Soccer",
+            "Rugby",
+            "Track and Field"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "college_name": "LMN Institute",
+        "college_image": "https://img.freepik.com/free-photo/group-happy-diverse-graduate-student-celebrating-their-graduation-success_285396-4802.jpg?size=626&ext=jpg",
+        "admission_dates": "February 2024",
+        "events": [
+            {
+                "event_name": "Orientation Week",
+                "event_date": "February 10, 2024"
+            },
+            {
+                "event_name": "Art and Music Festival",
+                "event_date": "March 20, 2024"
+            }
+        ],
+        "research_history": "LMN Institute excels in research related to fine arts, performing arts, and cultural studies.",
+        "sports": [
+            "Basketball",
+            "Cricket",
+            "Badminton"
+        ],
+        "rating": 4.9
     }
 ]
