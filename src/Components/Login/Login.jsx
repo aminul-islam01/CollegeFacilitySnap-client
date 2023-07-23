@@ -46,34 +46,6 @@ const Login = () => {
         setShowPassword(!showPassword);
     }
     return (
-        // <div className='bg-light pb-5'>
-        //     <div>
-        //         <form onSubmit={handleLogin} className='mx-auto mt-5 rounded shadow p-5' style={{background:"white"}}>
-        //             <h4 className='fw-bold text-center py-3'>Login your account</h4>
-        //             <hr />
-        //             <div className="mb-3">
-        //                 <label className='fw-bold'>Email address</label>
-        //                 <input type='email' name='email' placeholder="Enter your email address" />
-        //             </div>
-        //             <div className="mb-3">
-        //                 <form className='fw-bold'>Password</form>
-        //                 <input 
-        //                 type={showPassword?'text':'password'}
-        //                 name='password' 
-        //                 placeholder="Enter your password" />
-        //                 {showPassword?<FaEye onClick={handleShowPassword} className='eye'></FaEye>
-        //                 :<FaEyeSlash onClick={handleShowPassword} className='eye'></FaEyeSlash>}
-        //             </div>
-        //             <p className='text-danger mt-1'>{error}</p>
-        //             <button className='w-100' type="submit">Login</button>
-        //             <p className='text-center mt-3'>Forget Password? Please <Link onClick={handleResetPassword}>Reset Password</Link></p>
-        //             <p className='text-center mt-3 mb-5'>Don not have an account? <Link to="/register">Register</Link></p>
-        //             <button onClick={()=>handleGoogleSignIn(from, Navigate)} className='w-100 mb-3' type="submit"><FaGoogle></FaGoogle> Login With Google</button>
-        //             <button onClick={()=>handleGithubSignIn(from, Navigate)} className='w-100' type="submit"><FaGithub></FaGithub> Login With Github</button>
-        //         </form>
-        //     </div>
-        // </div>
-
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row-reverse mt-36">
                 <div className="text-center lg:text-left md:w-1/2">
@@ -100,6 +72,9 @@ const Login = () => {
                                 <label className="label">
                                     <a onClick={handleResetPassword} className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>
+                                <p className='text-center mt-3 mb-5'>Don not have an account? <Link to="/register">
+                                <button className='btn btn-neutral btn-xs'>Register</button>
+                                </Link></p>
                             </div>
                             <div className="form-control mt-6">
                                 <button type='submit' className="btn btn-primary">Login</button>
@@ -115,7 +90,6 @@ const Login = () => {
                 </div>
             </div>
         </div>
-
     );
 };
 
