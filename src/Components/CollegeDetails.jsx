@@ -14,7 +14,7 @@ const CollegeDetails = () => {
     console.log(college)
 
     return (
-        <div className="card lg:card-side bg-base-100 shadow-xl my-20">
+        <div className="card lg:card-side bg-base-100 shadow-xl mt-32 mb-10">
             <figure><img src={college.college_image} /></figure>
             <div className="card-body">
                 <h2 className="card-title">{college.college_name}</h2>
@@ -41,7 +41,7 @@ const CollegeDetails = () => {
                     }
                 </>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Listen</button>
+                    <button className="btn btn-primary">Admission</button>
                 </div>
             </div>
         </div>
