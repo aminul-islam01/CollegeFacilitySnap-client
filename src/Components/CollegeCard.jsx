@@ -10,6 +10,7 @@ const CollegeCard = () => {
         .then(res => res.json())
         .then(data => setColleges(data))
     }, [])
+    console.log(colleges)
 
     return (
         <div className="grid grid-cols-3 gap-5 my-20">

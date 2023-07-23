@@ -6,7 +6,7 @@ const Navbar = () => {
     const navItem = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/colleges">Colleges</Link></li>
-        <li><Link>Admissions</Link></li>
+        <li><Link to="/admission">Admissions</Link></li>
         <li><Link>My College</Link></li>
     </>
 
