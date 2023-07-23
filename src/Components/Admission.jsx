@@ -12,7 +12,7 @@ const Admission = () => {
 
     console.log(admissions)
     return (
-        <div className="overflow-x-auto my-10">
+        <div className="overflow-x-auto mt-36 mb-10">
             <table className="table">
                 {/* head */}
                 <thead>
