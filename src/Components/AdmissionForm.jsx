@@ -17,7 +17,7 @@ const AdmissionForm = () => {
     const onSubmit = (data) => {
         data.collegeId = collegeId.id;
         console.log(data)
-        fetch('http://localhost:5000/admission', {
+        fetch('https://college-facility-snap-server.vercel.app/admission', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

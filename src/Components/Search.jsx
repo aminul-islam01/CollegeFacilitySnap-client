@@ -13,7 +13,7 @@ const Search = () => {
         const form = even.target;
         const text = form.searchText.value;
 
-        fetch(`http://localhost:5000/college?search=${text}`)
+        fetch(`https://college-facility-snap-server.vercel.app/college?search=${text}`)
         .then(res => res.json())
         .then(data => {
             console.log(data._id)

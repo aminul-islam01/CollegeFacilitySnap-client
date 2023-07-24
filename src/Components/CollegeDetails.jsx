@@ -10,11 +10,11 @@ const CollegeDetails = () => {
     const from = location.state?.from?.pathname;
 
     useEffect(() => {
-        fetch(`http://localhost:5000/colleges/${id.id}`)
+        fetch(`https://college-facility-snap-server.vercel.app/colleges/${id.id}`)
             .then(res => res.json())
             .then(data => setCollege(data))
     }, [id])
-    console.log(college)
+
    
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl mt-32 mb-10">

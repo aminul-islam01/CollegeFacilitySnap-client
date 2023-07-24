@@ -9,7 +9,7 @@ const MyCollege = () => {
     const location = useLocation();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/my-college/${user?.email}`)
+        fetch(`https://college-facility-snap-server.vercel.app/my-college/${user?.email}`)
             .then(res => res.json())
             .then(data => setColleges(data))
     }, [user])

@@ -6,7 +6,7 @@ const Admission = () => {
     const [admissions, setAdmissions] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/admission')
+        fetch('https://college-facility-snap-server.vercel.app/admission')
             .then(res => res.json())
             .then(data => setAdmissions(data))
     }, [])
