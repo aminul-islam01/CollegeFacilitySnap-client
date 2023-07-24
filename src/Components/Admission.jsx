@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const Admission = () => {
@@ -38,7 +39,8 @@ const Admission = () => {
                             <td>{admission.collegeName}</td>
                             <td>{admission.AdmissionDate}</td>
                             <th>
-                                <button className="btn btn-primary btn-xs">Admission</button>
+                                <button className="btn btn-primary btn-xs"><Link to={`/admission-form/${admission.collegeId}`}>
+                                Admission</Link></button>
                             </th>
                         </tr>
                     )}

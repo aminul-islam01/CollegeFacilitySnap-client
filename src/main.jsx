@@ -13,6 +13,7 @@ import Admission from './Components/Admission.jsx';
 import AuthProviders from './Providers/AuthProviders.jsx';
 import Login from './Components/Login/Login.jsx';
 import Register from './Components/Register.jsx';
+import AdmissionForm from './Components/AdmissionForm.jsx';
 
 
 const router = createBrowserRouter([
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "admission",
         element: <Admission></Admission>
+      },
+      {
+        path: "admission-form/:id",
+        element: <AdmissionForm></AdmissionForm>
       },
       {
         path: "login",
