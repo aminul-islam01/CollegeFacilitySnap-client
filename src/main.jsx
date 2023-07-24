@@ -14,6 +14,7 @@ import AuthProviders from './Providers/AuthProviders.jsx';
 import Login from './Components/Login/Login.jsx';
 import Register from './Components/Register.jsx';
 import AdmissionForm from './Components/AdmissionForm.jsx';
+import MyCollege from './Components/MyCollege.jsx';
 
 
 const router = createBrowserRouter([
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: "register",
         element: <Register></Register>
+      },
+      {
+        path: "my-college",
+        element: <MyCollege></MyCollege>
       }
     ]
   },

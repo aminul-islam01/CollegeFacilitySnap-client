@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 
 
 const CollegeDetails = () => {
     const id = useParams();
-    const [college, setCollege] = useState([])
+    const [college, setCollege] = useState([]);
+    const location = useLocation();
+
+    const from = location.state?.from?.pathname;
 
     useEffect(() => {
         fetch(`http://localhost:5000/colleges/${id.id}`)
@@ -12,7 +15,7 @@ const CollegeDetails = () => {
             .then(data => setCollege(data))
     }, [id])
     console.log(college)
-
+   
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl mt-32 mb-10">
             <figure><img src={college.college_image} /></figure>
@@ -41,7 +44,9 @@ const CollegeDetails = () => {
                     }
                 </>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Admission</button>
+                    <button className="btn btn-primary" disabled={from === '/my-college'}>
+                        <Link to={`/admission-form/${college._id}`}>Admission</Link>
+                    </button>
                 </div>
             </div>
         </div>
